@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Profile Card</title>
+    <style>
+        body {
+            background-color: #cceeff; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            max-width: 350px;
+            width: 90%;
+            text-align: center;
+        }
+        .name {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .about {
+            font-size: 0.95em;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        .info {
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="name">Turla, Francois B.</div>
+        <div class="title">Assistant Developer</div>
+        <div class="about">"Passionate about coding and problem-solving, I assist in developing efficient software solutions. Eager to learn and grow in the tech industry, I focus on teamwork and continuous improvement."</div>
+        <div class="info">Age: 19</div>
+        <div class="info">Email: coasturla@gmail.com</div>
+        <div class="info">Contact: 09104307647</div>
+    </div>
+</body>
+</html
